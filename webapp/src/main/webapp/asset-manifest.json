@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.fc22e0ef.css",
+    "main.js": "./static/js/main.37520920.js",
+    "static/js/787.c67f95a2.chunk.js": "./static/js/787.c67f95a2.chunk.js",
+    "static/media/OpenSans-Medium.ttf": "./static/media/OpenSans-Medium.65529e6c75fe516f596a.ttf",
+    "static/media/OpenSans-Regular.ttf": "./static/media/OpenSans-Regular.57cd57a648021fa1c396.ttf",
+    "static/media/OpenSans-Bold.ttf": "./static/media/OpenSans-Bold.a0fe34bea92d4e1a84d6.ttf",
+    "static/media/OpenSans-SemiBold.ttf": "./static/media/OpenSans-SemiBold.2b370b191e5562dadc78.ttf",
+    "static/media/sprite.svg": "./static/media/sprite.c4ce079dff2025f38c0e135940f968f2.svg",
+    "index.html": "./index.html",
+    "main.fc22e0ef.css.map": "./static/css/main.fc22e0ef.css.map",
+    "main.37520920.js.map": "./static/js/main.37520920.js.map",
+    "787.c67f95a2.chunk.js.map": "./static/js/787.c67f95a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc22e0ef.css",
+    "static/js/main.37520920.js"
+  ]
+}
