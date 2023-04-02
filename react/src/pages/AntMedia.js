@@ -255,7 +255,6 @@ function AntMedia() {
       const sentInSameTime = lastQuestion?.date === newQuestion?.date;
       const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
       newQuestion.date = new Date(newQuestion?.date).toLocaleString(getLang(), { timeZone: timezone, hour: "2-digit", minute: "2-digit" });
-      debugger;
 
       if (isSameUser && sentInSameTime) {
         //group the messages *sent back to back in the same timeframe by the same user* by joinig the new message text with new line
@@ -309,7 +308,6 @@ function AntMedia() {
           return;
         }
 
-        debugger;
         antmedia.sendData(
             myLocalData.streamId,
             JSON.stringify({
@@ -324,7 +322,6 @@ function AntMedia() {
   }
 
   function handleSendMessage(message) {
-    debugger;
     if (myLocalData.streamId) {
       let iceState = antmedia.iceConnectionState(myLocalData.streamId);
       if (
