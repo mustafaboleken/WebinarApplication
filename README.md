@@ -1,3 +1,1 @@
 # WebinarApplication
-
-W.I.P.
